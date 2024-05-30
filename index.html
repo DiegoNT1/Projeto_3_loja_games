@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de jogos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css ">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3">EBAC Games</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos-disponiveis" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Jogos disponiveis
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-loja">
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/resident-evil-4-remake-slide.jpg" alt="Imagem RE4">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/reddead2-slide.jpeg" alt="Imagem Red Dead Redemption 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/Starfield-slide.png" alt="Imagem Starfield">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/GameShop.jpg" class="d-block w-100 rounded"
+                                alt="Foto fachada">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta at quisquam optio eum
+                                inventore, ex quaerat fugit. Distinctio, eaque et! Reprehenderit laborum nisi
+                                voluptatibus rem accusamus? Fugiat, eveniet dolor. Fuga.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusantium a corporis
+                                animi? Itaque veritatis delectus excepturi porro rem. Magnam commodi neque nobis? Iste,
+                                eaque unde? Quisquam quos distinctio minus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Promoções <span class="text-colored">para você</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 22rem;">
+                            <img src="./images/promocoes/CitiesSkylinesII.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cities: Skylines II</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem eligendi cum sunt a, sed quisquam repellat dicta nobis deserunt voluptatibus enim sequi sint, illum commodi blanditiis est consequuntur error?</p>
+                              <p class="fs-5 card-text"><span class="me-3" id="textoPromocional">R$165,99</span><span class="fs-4 text-colored">R$152,71</span></p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 22rem;">
+                            <img src="./images/promocoes/FINALFANTASYVII.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">FINAL FANTASY VII REMAKE</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem eligendi cum sunt a, sed quisquam repellat dicta nobis deserunt voluptatibus enim sequi sint, illum commodi blanditiis est consequuntur error?</p>
+                              <p class="fs-5 card-text"><span class="me-3" id="textoPromocional">R$349,90</span><span class="fs-4 text-colored">R$199,44</span></p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 22rem;">
+                            <img src="./images/promocoes/SIFU.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">SIFU</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem eligendi cum sunt a, sed quisquam repellat dicta nobis deserunt voluptatibus enim sequi sint, illum commodi blanditiis est consequuntur error?</p>
+                              <p class="fs-5 card-text"><span class="me-3" id="textoPromocional">R$75,99</span><span class="fs-4 text-colored">R$45,59</span></p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jogos-disponiveis" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Jogos <span class="text-colored">disponiveis</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-jogos-disponiveis">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jogos-rpg" class="fw-bold text-start nav-link text-colored active">RPG</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jogos-esportes" class="fw-bold text-start nav-link text-colored">Esportes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jogos-fps" class="fw-bold text-start nav-link text-colored">FPS</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="jogos-rpg">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/jogos/RPG/Starfield.jpg" alt="Starfield" />
+                                        <h5 class="text-colored fw-bold mt-2">Starfield</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn fw-bold">Veja +</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/jogos/RPG/HogwartsLegacy.png" alt="Hogwarts Legacy" />
+                                        <h5 class="text-colored fw-bold mt-2">Hogwarts Legacy</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn fw-bold">Veja +</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogos-esportes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/jogos/esportes/NBA2K24.png" alt="NBA 2K24" />
+                                        <h5 class="text-colored fw-bold mt-2">NBA 2K24</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn fw-bold">Veja +</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/jogos/esportes/WWE2K23.png" alt="WWE 2K23" />
+                                        <h5 class="text-colored fw-bold mt-2">WWE 2K23</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn fw-bold">Veja +</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="jogos-fps">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/jogos/FPS/TomClancysRainbowSix.png" alt="Tom Clancy’s Rainbow Six" />
+                                        <h5 class="text-colored fw-bold mt-2">Tom Clancy’s Rainbow Six</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn fw-bold">Veja +</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/jogos/FPS/Destiny2.png" alt="Destiny 2: Shadowkeep" />
+                                        <h5 class="text-colored fw-bold mt-2">Destiny 2: Shadowkeep</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button type="button" class="btn fw-bold">Veja +</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (Opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-link">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereco
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo N 145, Bairro Bootstrap - Sao Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

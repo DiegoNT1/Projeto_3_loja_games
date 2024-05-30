@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(29, 29, 146);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(29, 29, 146);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-jogos-disponiveis .nav-link.active:hover {
+   color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(214, 214, 245);
+}
+
+.section-title {
+    font-family: 'Top Show';
+}
+
+#sobre-loja,
+#jogos-disponiveis {
+    background-color: rgb(214, 214, 245);
+}
+
+.text-colored {
+    color: rgb(29, 29, 146);
+}
+
+#textoPromocional {
+    text-decoration: line-through;
+    color: red;
+}
+
+.nav-jogos-disponiveis .nav-link.active,
+#fale-conosco button,
+#jogos-disponiveis .btn{
+    background-color: rgb(29, 29, 146);
+    color: #fff;
+}
+
+.nav-jogos-disponiveis .nav-link:hover {
+    color: rgb(29, 29, 146);
+}
+
+.social-link li{
+    list-style: none;
+    display: inline;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Top Show';
+    src: url('./fonts/Top\ Show.otf');
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
