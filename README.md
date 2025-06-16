@@ -32,7 +32,7 @@ O objetivo é praticar a criação de uma interface moderna e funcional para e-c
 ---
 
 ## 📁 Estrutura do Projeto
-
+```bash
 Projeto_3_loja_games/
 ├── css/
 │ └── style.css # Estilos principais
@@ -41,6 +41,7 @@ Projeto_3_loja_games/
 ├── js/
 │ └── script.js # Script JS básico
 └── index.html # Página principal da loja
+```
 
 
 ---
