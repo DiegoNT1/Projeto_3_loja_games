@@ -37,7 +37,7 @@ Projeto_3_loja_games/
 ├── css/
 │ └── style.css # Estilos principais
 ├── img/
-│ └── # ícones e imagens usados na aplicação
+│ └── (imagens dos jogos)
 ├── js/
 │ └── script.js # Script JS básico
 └── index.html # Página principal da loja
