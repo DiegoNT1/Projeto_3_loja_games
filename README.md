@@ -51,7 +51,7 @@ Projeto_3_loja_games/
 1. Clone este repositório:
  ```bash
 # 1. Clone este repositório
-git clone https://github.com/DiegoNT1/Projeto_2-Agenda_De_Contatos.git
+git clone https://github.com/DiegoNT1/Projeto_3_loja_games.git
 
 # 2. Acesse a pasta do projeto
 cd Projeto_2-Agenda_De_Contatos
